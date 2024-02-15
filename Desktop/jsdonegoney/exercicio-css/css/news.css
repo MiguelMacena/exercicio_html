@@ -1,0 +1,250 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body > header {
+
+    background-color: #000000;
+    color: azure;
+    width: 100%;
+    height: 8rem;
+
+}
+
+
+
+
+header .container h1 {
+
+    position: relative;
+    color: #e97c00;
+
+
+}
+
+
+
+header .container {
+
+    display: table;
+    justify-content: space-between;
+    right: 100%;
+
+}
+
+header li {
+
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 30px;
+    
+
+}
+
+header li a{
+
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+.container h2 {
+
+    background-color: antiquewhite;
+
+}
+
+.container {
+
+    margin: 0;
+    width: 100%;
+
+}
+
+article {
+
+    width: 50%;
+    padding: 5%;
+
+    
+
+}
+
+.artigos article {
+
+    display: table-cell;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.artigos img{
+
+    width: 500px;
+    height: 333px;
+    border-radius: 20px;
+
+}
+
+.artigos article{
+
+    width: 50%;
+
+}
+
+section {
+
+    padding: 16px;
+
+}
+
+.artigos p, h3 {
+
+    background-color: aliceblue;
+
+} 
+
+section h2,
+.artigos article  {
+
+    margin-bottom: 16px;
+
+}
+
+.artigos article {
+
+    margin-top: 8px;
+    margin-bottom: 8px;    
+
+}
+
+.artigos article a {
+
+    background-color: rgb(54, 53, 52);
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+
+}
+
+.artigos article p {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.artigos article a {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.artigos article a :hover {
+
+    text-decoration: underline;
+
+}
+
+
+.artigos article h3 {
+
+    font-size: 24px;
+
+}
+
+section h2 {
+
+    font-size: 32px;
+
+}
+
+#esportes {
+
+    background-color:  #BC8C54;
+    background-size: 100%;
+    
+
+}
+
+#esportes .artigos article a {
+
+    background-color: #e97c00;
+    color: #000;
+    background-size: 100%;
+    
+
+}
+
+#economia {
+
+    background-color: #865d2e;
+    background-size: 100%;
+    
+
+}
+
+#economia .artigos article a {
+
+    background-color: #e97c00;
+    color: #000;
+    background-size: 100%;
+    
+
+}
+
+#tecnologia {
+
+    background-color: #553b1d;
+    background-size: 100%;
+    
+
+}
+
+#tecnologia .artigos article a{
+
+    background-color: #e97c00;
+    color: #000;
+    background-size: 100%;
+    
+
+}
+
+#musica {
+
+    background-color: #302110;
+    background-size: 100%;
+    
+
+}
+
+#musica .artigos article a {
+
+    background-color: #e97c00;
+    color: #000;
+    background-size: 100%;
+    
+
+}
+
+p {
+
+    width: 100%;
+
+}
+
+footer {
+
+    background-color: #000;
+    color: #e97c00;
+    height: 3rem;
+    font-size: 30px;
+
+}
